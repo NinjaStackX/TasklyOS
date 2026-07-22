@@ -41,7 +41,7 @@ export default function Navbar({ onMobileMenuOpen }: NavbarProps) {
       {/* User Avatar & Info Status */}
       <div className="flex items-center gap-3">
         <div className="text-right hidden md:block">
-          <p className="text-sm font-bold text-[#041B3C]">Mahmoud Taha</p>
+          <p className="text-sm font-bold text-[#041B3C]">Bashar Maaz</p>
           <p className="text-[11px] font-bold text-[#0052CC] uppercase tracking-wider">
             Project Manager
           </p>
