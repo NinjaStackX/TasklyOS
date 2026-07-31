@@ -6,9 +6,7 @@ export default function AddNewEpicPage({
 }: {
   params: { projectName: string };
 }) {
-  const displayProjectName = params.projectName
-    .replace(/-/g, " ")
-    .toUpperCase();
+  const displayProjectName = "Alpha Project"
 
   return (
     <div className="max-w-4xl mx-auto py-8">
