@@ -71,7 +71,7 @@ export default function Sidebar({
     <motion.aside
       animate={{ width: isCollapsed ? 80 : 260 }}
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
-      className="hidden md:flex flex-col h-full bg-[#F1F3FF] border-r border-[#C3C6D6] select-none justify-between z-20"
+      className="hidden md:flex flex-col h-[100dvh] bg-[#F1F3FF] border-r border-[#C3C6D6] select-none justify-between z-20"
     >
       <div>
         {/* الهيدر الخاص بالشعار */}
