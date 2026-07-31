@@ -1,1 +1,6 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* أي أكواد CSS أخرى يجب أن تكون تحت هذه الأسطر */
